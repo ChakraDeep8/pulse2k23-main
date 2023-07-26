@@ -1,23 +1,23 @@
 import React, { useState, useEffect, useMemo } from "react";
 import "./Members.css";
-import member1 from "../../members/Sourav Ghosh.jpg";
-import member2 from "../../members/Ahelee Mukherjee.jpg";
-import member3 from "../../members/Subhodeep Neogi.jpg";
-import member4 from "../../members/Sreemoyee Chatterjee.jpg";
-import member5 from "../../members/Chayan Gupta.jpg";
-import member6 from "../../members/Diptanshu Ghosh.jpg";
-import member7 from "../../members/Hrishika.jpg";
-import member8 from "../../members/Shubham Gupta.jpg";
-import member9 from "../../members/Lalita Bhattacharya.jpg";
-import member10 from "../../members/Meghna Si.jpg";
-import member11 from "../../members/Shreyan Chowdhury.jpg";
-import member12 from "../../members/Sanjana Shaw.jpg";
-import member13 from "../../members/Riya Karmakar.jpg";
-import member14 from "../../members/Deep Chakraborty.jpg";
-import member15 from "../../members/Supratim Dey.jpg";
-import member16 from "../../members/Kallol Mondal.jpg";
-import member17 from "../../members/Sayantan Karmakar.jpg";
-import member18 from "../../members/Avantika Roy.jpg";
+import member1 from "../../members/Sourav Ghosh (Small).jpg";
+import member2 from "../../members/Ahelee Mukherjee (Small).jpg";
+import member3 from "../../members/Subhodeep Neogi (Small).jpg";
+import member4 from "../../members/Sreemoyee Chatterjee (Small).jpg";
+import member5 from "../../members/Chayan Gupta (Small).jpg";
+import member6 from "../../members/Diptanshu Ghosh (Small).jpg";
+import member7 from "../../members/Hrishika (Small).jpg";
+import member8 from "../../members/Shubham Gupta (Small).jpg";
+import member9 from "../../members/Lalita Bhattacharya (Small).jpg";
+import member10 from "../../members/Meghna Si (Small).jpg";
+import member11 from "../../members/Shreyan Chowdhury (Small).jpg";
+import member12 from "../../members/Sanjana Shaw (Small).jpg";
+import member13 from "../../members/Riya Karmakar (Small).jpg";
+import member14 from "../../members/Deep Chakraborty (Small).jpg";
+import member15 from "../../members/Supratim Dey (Small).jpg";
+import member16 from "../../members/Kallol Mondal (Small).jpg";
+import member17 from "../../members/Sayantan Karmakar (Small).jpg";
+import member18 from "../../members/Avantika Roy (Small).jpg";
 
 const Members = () => {
   const membersArr = useMemo(
