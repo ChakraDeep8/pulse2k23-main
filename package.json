@@ -20,9 +20,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "node run build",
     "deploy": "gh-pages -d build",
-    "start": "node index.js",
+    "start": "node src/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -49,7 +49,7 @@
     "gh-pages": "^5.0.0"
   },
   "description": "This is a landing page created for the yearly event of the IT Department of MCKVIE, PULSE.EXE 2K23",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Shubham Gupta",
   "license": "ISC"
 }
